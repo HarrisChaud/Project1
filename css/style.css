@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+}
+
+.container {
+  flex-direction: column;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  font-family: sans-serif;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.header {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.nav {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 10px;
+  color: white;
+}
+
+.nav-elem {
+  margin: 15px;
+}
+
+.rent-car {
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 60px;
+  color: lightgrey;
+  width: 250px;
+}
+
+.rent-now {
+  margin-bottom: 40px;
+  margin-top: 150px;
+  color: white;
+  background-color: mediumvioletred;
+  width: 140px;
+  height: 35px;
+  border-radius: 3%;
+}
+
+.about-company {
+  width: 50px;
+  margin-left: 500px;
+  margin-bottom: 50px;
+  font: bold;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.about-us {
+  margin-left: 580px;
+  color: white;
+  background-color: mediumvioletred;
+  width: 140px;
+  height: 35px;
+  border-radius: 3%;
+}
+
+.about-company-sentence {
+  width: 600px;
+  margin-left: 500px;
+  margin-bottom: 100px;
+}
+
+.first-half {
+  border: 1px solid black;
+  background-image: url("../img/img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second-half {
+  margin-bottom: 50px;
+  margin-left: 400px;
+}
+.second-pg-img {
+  height: 300px;
+  width: 300;
+}
