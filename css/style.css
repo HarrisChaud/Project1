@@ -1,42 +1,3 @@
-* {
-  margin: 0;
-}
-
-.container {
-  flex-direction: column;
-  height: 100vh;
-}
-
-.title {
-  display: flex;
-  font-family: sans-serif;
-}
-
-.logo {
-  height: 40px;
-  width: 40px;
-  margin-right: 10px;
-}
-
-.header {
-  padding: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border: 1px solid black;
-}
-
-.nav {
-  font-size: 20px;
-  font-family: sans-serif;
-  margin: 10px;
-  color: white;
-}
-
-.nav-elem {
-  margin: 15px;
-}
-
 .rent-car {
   font-size: 30px;
   margin-bottom: 50px;
@@ -65,7 +26,25 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .about-us {
-  margin-left: 580px;
+  margin-top: 0px;
+  margin-left: 0px;
+  color: white;
+  background-color: mediumvioletred;
+  width: 140px;
+  height: 35px;
+  border-radius: 3%;
+}
+
+.about-us-div {
+  margin-top: 50px;
+  margin-left: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact {
+  margin-top: 0px;
+  margin-left: 0px;
   color: white;
   background-color: mediumvioletred;
   width: 140px;
@@ -74,9 +53,11 @@
 }
 
 .about-company-sentence {
-  width: 600px;
-  margin-left: 500px;
+  width: 500px;
+  margin-top: 300px;
   margin-bottom: 100px;
+  margin-right: 300px;
+  font-size: 30px;
 }
 
 .first-half {
@@ -85,13 +66,127 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 750px;
 }
 
 .second-half {
-  margin-bottom: 50px;
-  margin-left: 400px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+  justify-content: flex-start;
+  margin-top: 40px;
+  /* border: 1px solid black; */
+  background-color: mistyrose;
+}
+
+.second-half-1 {
+  margin-left: 35px;
+  font-size: 70px;
+  width: 50px;
 }
 .second-pg-img {
-  height: 300px;
-  width: 300;
+  height: 500px;
+  width: 600px;
+  margin-left: 0px;
+}
+
+.second-half-2 {
+  margin-top: 50px;
+  width: 600px;
+  font-size: 25px;
+  margin-left: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.statements {
+  flex-direction: row;
+  /* border: 1px solid red; */
+
+  margin: 0;
+}
+
+.logo1 {
+  color: white;
+  font-size: 60px;
+}
+
+.third-half {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.third-pic {
+  height: 500px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 50px;
+  height: 800px;
+  width: 500px;
+}
+
+.why {
+  font-size: 70px;
+  width: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.reasons {
+  display: flex;
+  width: 800px;
+  margin-top: 300px;
+  justify-content: center;
+  /* border: 1px salmon solid; */
+  flex-direction: row;
+}
+
+.reason1 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  width: 300px;
+}
+
+.percentage-logo {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.low-price-heading {
+  margin-bottom: 20px;
+}
+
+.customer-img {
+  margin-top: 45px;
+  height: 90px;
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+.descrip-2 {
+  margin-top: 20px;
+}
+
+.third-half {
+  background-color: mistyrose;
+  color: black;
+}
+.right-half {
+  /* border: solid black 1px; */
+  display: flex;
+  margin: 0;
+  justify-content: flex-start;
+  width: 885px;
+}
+
+/* @media screen (width: 500px) {
+} */
+
+.reasons-first-half {
+  /* border: solid blue 1px; */
+  width: 600px;
+}
+
+.reasons-second-half {
+  /* border: solid purple 1px; */
 }
