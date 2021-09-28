@@ -1,9 +1,12 @@
+* {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
 .container {
   height: 900px;
   width: 100%;
-  background-color: lightsteelblue;
+  background-color: seashell;
 }
-
 .map {
   width: 500px;
   height: 50vh;

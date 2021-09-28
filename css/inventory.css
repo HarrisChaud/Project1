@@ -1,5 +1,7 @@
+* {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
 .first-half {
-  border: solid red 3px;
   height: 100vh;
   width: 100%;
   background-image: url("../img/Inventory-background.jpg");
@@ -31,6 +33,13 @@
   height: 100%;
 } */
 
+.container {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
 .nav a {
   color: white;
 }
@@ -43,13 +52,8 @@
   padding-left: 45px;
   color: white;
   font-size: 60px;
-  font-family: "Dancing Script", cursive;
   font-weight: bold;
   text-shadow: 5px 5px rgb(51, 50, 50);
-}
-
-.inventory {
-  border: purple 3px solid;
 }
 
 .inventory-container-1 {
@@ -58,7 +62,7 @@
   /* border: solid cornflowerblue; */
   height: 600px;
   margin-top: 0px;
-  background-color: slategray;
+  background-color: seashell;
 }
 
 .inventory-container-2 {
@@ -66,8 +70,6 @@
   justify-content: space-evenly;
   /* border: solid orange; */
   height: 600px;
-
-  background-color: slategray;
 }
 
 .car-image {
@@ -90,14 +92,13 @@
   margin-top: 30px;
   border: 1px black solid;
   border-radius: 20px;
-  background-color: silver;
+  background-color: white;
 
   padding-top: 30px;
 }
 
 ul {
   font-size: 25px;
-  font-family: Georgia, "Times New Roman", Times, serif;
   list-style: none;
 }
 
@@ -106,6 +107,24 @@ li {
 }
 .car-name {
   margin-left: 20px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+button {
+  color: black;
+  width: 140px;
+  height: 35px;
+  border-radius: 3%;
+  margin-left: 170px;
+}
+
+button:hover {
+  background-color: mediumvioletred;
+}
+
+ul {
+  margin-left: 130px;
+}
+
+.car-name {
+  margin-left: 150px;
 }
