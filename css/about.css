@@ -41,9 +41,9 @@ nav a {
 
 .about-image {
   position: absolute;
-  height: 65%;
+  height: 55%;
   width: 30%;
   margin-left: 700px;
-  margin-top: 20px;
+  margin-top: 0px;
   border-radius: 3%;
 }
