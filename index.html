@@ -9,11 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,100&display=swap" rel="stylesheet">
+<script defer src=’https://use.fontawesome.com/releases/v5.0.6/js/all.js'></script>
+<link href="/css/webfonts/" rel="stylesheet">
+
+
     <title>HRS Rentals</title>
   </head>
   <body>
-  <div>
+    <label for = "toggle">
+      <i class = "fas fa-bars hamburger"></i>
+    </label>
     <div class="container">
+      <div class = "bp">
       <div class="first-half">
         <div class="header">
           <div class="title">
@@ -27,14 +34,36 @@
               <a href = "contact.html"class="nav-elem">Contact</a>
               <a href = "booking.html"class="nav-elem">Bookings</a>
             </nav>
+            <input type = "checkbox" id = "toggle" name = "toggle">
+            <nav class = "navigation--responsive">
+              <ul>
+                <li>
+                  <a href = "index.html">Home</a>
+                </li>
+
+                <li>
+                  <a href = "inventory.html">Inventory</a>
+                </li>
+                <li>
+                  <a href = "about.html">About</a>
+                </li>
+                <li>
+                  <a href = "contact.html">Contact</a>
+                </li>
+                <li>
+                  <a href = "booking.html">Booking</a>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
         <div class="rent-car">
-          <div class>
-            <h1>Get Your Dream Car Today</h1>
+          <div>
+            <h1  class >Get Your Dream Car Today</h1>
           </div>
           <button src = "inventory.html" class="rent-now">Rent Now</button>
         </div>
+      </div>
       </div>
       <div class="second-half">
         <img class="second-pg-img" src="img/img1.jpg" />
@@ -85,6 +114,7 @@
           </div>
         </div>
       </div>
+
     </div>
   </body>
 </html>

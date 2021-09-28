@@ -23,7 +23,7 @@
   position: absolute;
   bottom: 350px;
   left: 0;
-  width: 30px;
+  width: 327px;
   padding-left: 30px;
   color: seashell;
   font-size: 30px;
@@ -34,16 +34,16 @@
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.1em;
-  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+  animation: typing 3s steps(30, end), blink-caret 0.5s step-start none;
+  margin-bottom: 30px;
 }
 
-/* The typing effect */
 @keyframes typing {
   from {
     width: 0%;
   }
   to {
-    width: 50%;
+    width: 25%;
   }
 }
 
