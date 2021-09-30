@@ -224,14 +224,14 @@ label [for="toggle"] {
     border-radius: 3%;
   }
   .container {
-    width: 110em;
+    width: 100%;
   }
   .first-half {
     width: 100%;
   }
 
   .second-half {
-    width: 110em;
+    width: 100%;
   }
 
   .second-half-1 {
@@ -285,7 +285,7 @@ label [for="toggle"] {
   }
 
   .third-half {
-    width: 110em;
+    width: 100%;
     background-color: seashell;
     display: flex;
     justify-content: center;
@@ -293,7 +293,7 @@ label [for="toggle"] {
   .right-half {
     display: flex;
     justify-content: center;
-    width: 100em;
+    width: 100%;
   }
 
   .reasons {
@@ -302,7 +302,7 @@ label [for="toggle"] {
     flex-direction: column;
     align-items: center;
     height: 70em;
-    width: 95em;
+    width: 100%;
   }
 
   .reasons-first-half {
