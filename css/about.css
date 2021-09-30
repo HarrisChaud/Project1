@@ -69,6 +69,12 @@ nav a {
     width: 80em;
   }
 
+  .about-us-heading {
+    font-size: 60px;
+    width: 200px;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
   .about-us-paragraph {
     font-size: 60px;
     width: 20em;
