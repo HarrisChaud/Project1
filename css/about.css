@@ -40,10 +40,7 @@ nav a {
 }
 
 .about-image {
-  position: absolute;
-  height: 55%;
-  width: 30%;
-  margin-left: 700px;
-  margin-top: 0px;
-  border-radius: 3%;
+  width: 400px;
+  height: 500px;
+  margin-left: 40em;
 }

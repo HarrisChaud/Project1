@@ -204,10 +204,6 @@ label [for="toggle"] {
   display: none;
 }
 @media (max-width: 500px) {
-  body {
-    width: 100%;
-  }
-
   .heading {
     font-size: 80px;
     width: 7em;
@@ -224,14 +220,14 @@ label [for="toggle"] {
     border-radius: 3%;
   }
   .container {
-    width: 100%;
+    width: 110em;
   }
   .first-half {
-    width: 100%;
+    width: 110em;
   }
 
   .second-half {
-    width: 100%;
+    width: 110em;
   }
 
   .second-half-1 {
@@ -285,7 +281,7 @@ label [for="toggle"] {
   }
 
   .third-half {
-    width: 100%;
+    width: 110em;
     background-color: seashell;
     display: flex;
     justify-content: center;
