@@ -44,3 +44,41 @@ nav a {
   height: 500px;
   margin-left: 40em;
 }
+
+@media (max-width: 550px) {
+  * {
+    font-family: "Barlow Semi Condensed", sans-serif;
+  }
+
+  .container {
+    width: 110em;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 110em;
+  }
+  .nav {
+    width: 150em;
+    margin-left: 100px;
+  }
+  .title {
+    width: 200px;
+  }
+
+  .about-us {
+    height: 70em;
+    width: 50em;
+  }
+
+  .about-us-paragraph {
+    font-size: 50px;
+    width: 11em;
+  }
+
+  .about-image {
+    width: 40em;
+    height: 70em;
+    margin-left: 55em;
+  }
+}
