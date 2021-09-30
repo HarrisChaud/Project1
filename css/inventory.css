@@ -131,7 +131,7 @@ ul {
   margin-left: 150px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 550px) {
   * {
     font-family: "Barlow Semi Condensed", sans-serif;
   }
