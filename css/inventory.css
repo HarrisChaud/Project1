@@ -238,15 +238,6 @@ ul {
     margin-bottom: 30px;
   }
 
-  @keyframes typing {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 20em;
-    }
-  }
-
   @keyframes blink-caret {
     from,
     to {
