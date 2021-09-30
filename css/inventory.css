@@ -143,20 +143,21 @@ ul {
   .inventory {
     display: flex;
     flex-direction: column;
+    border: solid red 2px;
   }
 
   .inventory-container-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 190em;
+    height: 200em;
   }
 
   .inventory-container-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 190em;
+    height: 200em;
   }
 
   .car {
