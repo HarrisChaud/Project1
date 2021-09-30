@@ -1,3 +1,10 @@
+body {
+  width: 100%;
+}
+
+.container {
+  width: 90em;
+}
 .rent-car {
   font-size: 30px;
   margin-bottom: 50px;
@@ -77,7 +84,7 @@
   margin-top: 40px;
   /* border: 1px solid black; */
   background-color: seashell;
-  width: 1400px;
+  width: 90em;
 }
 
 .second-half-1 {
@@ -169,27 +176,17 @@
 .third-half {
   background-color: seashell;
   color: black;
+  width: 90em;
 }
 .right-half {
-  /* border: solid black 1px; */
   display: flex;
   margin: 0;
   justify-content: flex-start;
   width: 885px;
 }
 
-/* @media screen (width: 500px) {
-} */
-
-.reasons-first-half {
-  /* border: solid blue 1px; */
-  width: 600px;
+.rem {
 }
-
-.reasons-second-half {
-  /* border: solid purple 1px; */
-}
-
 label [for="toggle"] {
   position: fixed;
   top: 25px;
@@ -210,10 +207,178 @@ label [for="toggle"] {
   body {
     width: 100vw;
   }
-  .first-half {
-    width: 1400px;
+
+  .heading {
+    font-size: 80px;
+    width: 7em;
+    font-weight: bold;
   }
-  svg.hamburger {
+
+  .rent-now {
+    color: white;
+    background-color: mediumvioletred;
+    width: 250px;
+    height: 35px;
+    font-size: 30px;
+    height: 65px;
+    border-radius: 3%;
+  }
+  .container {
+    width: 110em;
+  }
+  .first-half {
+    width: 110em;
+  }
+
+  .second-half {
+    width: 110em;
+  }
+
+  .second-half-1 {
+    width: 8em;
+    font-size: 7em;
+    margin-left: 2em;
+  }
+
+  .second-half-2 {
+    width: 18em;
+    font-size: 4em;
+    margin-top: 2em;
+    margin-right: 3em;
+  }
+
+  .about-us-div {
+    width: 60em;
+    margin-top: 200px;
+  }
+  .about-us {
+    margin-top: 0px;
+    margin-left: 0px;
+    color: white;
+    background-color: mediumvioletred;
+    height: 75px;
+    border-radius: 3%;
+    margin-left: 30px;
+    font-size: 30px;
+    width: 250px;
+  }
+
+  .contact {
+    margin-top: 0px;
+    margin-left: 200px;
+    color: white;
+    background-color: mediumvioletred;
+    width: 250px;
+    height: 35px;
+    font-size: 30px;
+    height: 75px;
+    border-radius: 3%;
+  }
+  .second-pg-img {
+    height: 60em;
+    width: 35em;
+  }
+
+  .statements {
+    height: 60em;
+    width: 18em;
+  }
+
+  .third-half {
+    width: 110em;
+    background-color: seashell;
+    display: flex;
+    justify-content: center;
+  }
+  .right-half {
+    display: flex;
+    justify-content: center;
+    width: 100em;
+  }
+
+  .reasons {
+    /* border: solid black 1px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70em;
+    width: 95em;
+  }
+
+  .reasons-first-half {
+    display: flex;
+    /* border: red 3px solid; */
+    width: 32em;
+    align-items: center;
+    justify-content: center;
+    height: 40em;
+  }
+
+  .reasons-second-half {
+    display: flex;
+    /* border: blue 3px solid; */
+
+    width: 32em;
+    height: 40em;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .reason1 {
+    /* border: turquoise 1px solid; */
+    margin-right: 25em;
+    margin-top: 3em;
+  }
+
+  .reason3 {
+    margin-bottom: 5em;
+    width: 50em;
+  }
+
+  .why-div {
+    position: absolute;
+    width: 50em;
+    top: 120em;
+    left: 25em;
+    /* border: orangered 1px solid; */
+    height: 10em;
+  }
+  .why {
+    width: 10em;
+
+    font-size: 120px;
+  }
+
+  .descrip-3 {
+    font-size: 55px;
+    width: 13em;
+    margin-right: 2em;
+    margin-top: 0.5em;
+  }
+
+  .descrip-2 {
+    width: 500px;
+    margin-top: 20px;
+    font-size: 55px;
+    width: 9em;
+  }
+
+  .third-pic {
+    /* border: greenyellow 2px solid; */
+    display: none;
+    height: 120em;
+    margin: 0;
+    width: 65em;
+  }
+
+  .res {
+    font-size: 50px;
+  }
+
+  .reason2 {
+    margin-bottom: 80px;
+  }
+  /* svg.hamburger {
     display: block;
   }
 
@@ -226,8 +391,8 @@ label [for="toggle"] {
     width: 200px;
     height: 100vh;
     position: fixed;
-    top: -100vh;
-    right: 0;
+    top: 50vh;
+    margin-right: 500px;
     left: 0;
     bottom: 0;
     margin: 0;
@@ -235,6 +400,9 @@ label [for="toggle"] {
     transition: top 1s;
   }
 
+  nav {
+    display: none;
+  }
   .navigation--responsive ul {
     display: block;
     list-style: none;
@@ -260,5 +428,5 @@ label [for="toggle"] {
 
   #toggle:checked ~ .navigation--responsive {
     top: 0vh;
-  }
+  } */
 }
