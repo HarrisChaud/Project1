@@ -133,6 +133,10 @@ ul {
 }
 
 @media (max-width: 750px) {
+  * {
+    font-family: "Barlow Semi Condensed", sans-serif;
+  }
+
   .container {
     width: 110em;
     border: solid black 2px;
@@ -217,11 +221,9 @@ ul {
   }
 
   .welcome-div {
-    width: 100%;
   }
   .welcome {
-    position: absolute;
-    bottom: 00px;
+    margin-top: 300px;
     right: 00px;
     width: 22em;
     padding-left: 30px;
@@ -256,8 +258,4 @@ ul {
       border-color: gray;
     }
   } */
-
-  nav {
-    font-size: 00px;
-  }
 }
