@@ -203,9 +203,9 @@ label [for="toggle"] {
 #toggle {
   display: none;
 }
-@media only screen and (max-width: 750px) {
+@media (max-width: 500px) {
   body {
-    width: 100vw;
+    width: 100%;
   }
 
   .heading {
@@ -227,7 +227,7 @@ label [for="toggle"] {
     width: 110em;
   }
   .first-half {
-    width: 110em;
+    width: 100%;
   }
 
   .second-half {

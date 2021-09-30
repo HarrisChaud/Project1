@@ -134,11 +134,11 @@ ul {
 
 @media only screen and (max-width: 750px) {
   body {
-    width: 320em;
+    width: 110em;
   }
 
   .container {
-    width: 320em;
+    width: 110em;
     border: solid black 2px;
   }
 
@@ -204,7 +204,7 @@ ul {
   }
 
   .first-half {
-    height: 100em;
+    height: 20em;
     width: 100%;
     background-image: url("../img/replacement.jpg");
     background-position: center;
