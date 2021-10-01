@@ -73,8 +73,9 @@
 
 .social-heading {
   position: absolute;
-  margin-left: 60px;
-  margin-top: 200px;
+  margin-left: 260px;
+  margin-top: 110px;
+  left: 30em;
 }
 
 .help {
@@ -92,4 +93,86 @@
   width: 140px;
   height: 35px;
   border-radius: 3%;
+}
+
+@media (max-width: 550px) {
+  * {
+    font-family: "Barlow Semi Condensed", sans-serif;
+  }
+
+  nav {
+    margin-left: 25em;
+  }
+
+  nav a {
+    font-size: 50px;
+  }
+  .container {
+    width: 135em;
+    height: 190em;
+  }
+
+  .connect {
+    width: 800px;
+    font-size: 100px;
+    margin-left: 100px;
+  }
+
+  .nav {
+    margin-left: 80px;
+  }
+
+  .location {
+    width: 550px;
+    height: 300px;
+    margin-top: 180px;
+  }
+
+  .HQ-head {
+    font-size: 50px;
+    width: 500px;
+  }
+  .HQ {
+    font-size: 50px;
+    width: 500px;
+  }
+
+  .map {
+    margin-top: 700px;
+    height: 800px;
+    width: 900px;
+  }
+
+  .help {
+    margin-left: 300px;
+    margin-top: 400px;
+  }
+
+  .support {
+    font-size: 60px;
+  }
+
+  .button {
+    margin-left: 10px;
+    margin-top: 30px;
+    color: white;
+    background-color: mediumvioletred;
+    width: 300px;
+    height: 50px;
+    border-radius: 3%;
+    font-size: 40px;
+  }
+  .icons {
+    display: absolute;
+    left: 1100px;
+    top: 500px;
+  }
+
+  .social-heading {
+    display: none;
+  }
+
+  .images {
+    size: 90px;
+  }
 }
