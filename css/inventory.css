@@ -1,5 +1,5 @@
-* {
-  font-family: "Barlow Semi Condensed", sans-serif;
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .first-half {
   height: 100vh;
@@ -60,7 +60,6 @@
 .inventory-container-1 {
   display: flex;
   justify-content: space-evenly;
-  /* border: solid cornflowerblue; */
   height: 600px;
   margin-top: 0px;
   background-color: seashell;
@@ -69,7 +68,6 @@
 .inventory-container-2 {
   display: flex;
   justify-content: space-evenly;
-  /* border: solid orange; */
   height: 600px;
   background-color: seashell;
 }
@@ -262,15 +260,4 @@ ul {
   nav {
     display: flex;
   }
-
-  /* The typewriter cursor effect
-  @keyframes blink-caret {
-    from,
-    to {
-      border-color: transparent;
-    }
-    100% {
-      border-color: gray;
-    }
-  } */
 }

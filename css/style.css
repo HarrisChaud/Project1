@@ -82,7 +82,6 @@ body {
   margin-left: 0px;
   justify-content: flex-start;
   margin-top: 40px;
-  /* border: 1px solid black; */
   background-color: seashell;
   width: 90em;
 }
@@ -107,7 +106,6 @@ body {
 
 .statements {
   flex-direction: row;
-  /* border: 1px solid red; */
 
   margin: 0;
 }
@@ -141,7 +139,6 @@ body {
   width: 800px;
   margin-top: 300px;
   justify-content: center;
-  /* border: 1px salmon solid; */
   flex-direction: row;
 }
 
@@ -185,8 +182,6 @@ body {
   width: 885px;
 }
 
-.rem {
-}
 label [for="toggle"] {
   position: fixed;
   top: 25px;
@@ -293,7 +288,6 @@ label [for="toggle"] {
   }
 
   .reasons {
-    /* border: solid black 1px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -303,7 +297,6 @@ label [for="toggle"] {
 
   .reasons-first-half {
     display: flex;
-    /* border: red 3px solid; */
     width: 32em;
     align-items: center;
     justify-content: center;
@@ -312,7 +305,6 @@ label [for="toggle"] {
 
   .reasons-second-half {
     display: flex;
-    /* border: blue 3px solid; */
 
     width: 32em;
     height: 40em;
@@ -321,7 +313,6 @@ label [for="toggle"] {
   }
 
   .reason1 {
-    /* border: turquoise 1px solid; */
     margin-right: 25em;
     margin-top: 3em;
   }
@@ -336,7 +327,6 @@ label [for="toggle"] {
     width: 50em;
     top: 120em;
     left: 25em;
-    /* border: orangered 1px solid; */
     height: 10em;
   }
   .why {
@@ -360,7 +350,6 @@ label [for="toggle"] {
   }
 
   .third-pic {
-    /* border: greenyellow 2px solid; */
     display: none;
     height: 120em;
     margin: 0;
@@ -374,55 +363,4 @@ label [for="toggle"] {
   .reason2 {
     margin-bottom: 80px;
   }
-  /* svg.hamburger {
-    display: block;
-  }
-
-  .main-nvigation {
-    display: none;
-  }
-  .navigation--responsive {
-    display: block;
-    background: linear-gradient(to top, #be93c5, #7bc6cc);
-    width: 200px;
-    height: 100vh;
-    position: fixed;
-    top: 50vh;
-    margin-right: 500px;
-    left: 0;
-    bottom: 0;
-    margin: 0;
-    padding: 0;
-    transition: top 1s;
-  }
-
-  nav {
-    display: none;
-  }
-  .navigation--responsive ul {
-    display: block;
-    list-style: none;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    margin: 85px 0 0 0;
-    padding: 0;
-  }
-  .navigation--responsive ul li {
-    margin: 0;
-    padding: 0;
-  }
-
-  .navigation--responsive li a {
-    padding: 50px 20px 50px 30px;
-    text-decoration: none;
-    color: black;
-    font-family: "Barlow Semi Condensed", sans-serif;
-  }
-
-  #toggle:checked ~ .navigation--responsive {
-    top: 0vh;
-  } */
 }
